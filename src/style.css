@@ -687,3 +687,14 @@ a[href="#"][data-pendiente]{cursor:not-allowed}
 .pie-marca-cpea{display:inline-block;text-decoration:none}
 .pie-logo-cpea{display:block;height:44px;width:auto;max-width:100%}
 .pie-logo-cpea{filter:brightness(0) invert(1)}
+
+/* CPEA 04/11/2026 (Rosario vía DC/Ofelia, hilo 5c723dce): estructura = borrador-cai */
+/* Pie: mismo marcado que CAI (span.pie-placa + img.pie-logo); logo CPEA en blanco */
+.pie-logo-cpea{height:40px!important;width:auto;max-width:100%;margin:0!important;display:inline-block!important;filter:brightness(0) invert(1)!important}
+/* #informes: diapositivas del carrusel con hueco de imagen (sin captura todavía): no amplían */
+.inf-slide-a[data-pendiente]{cursor:default}
+.inf-slide .img-pend{border:0}
+/* Qué aporta: lead propio del CPEA (CAI no lo tiene) */
+.aporta-lead{margin:.75rem 0 0;color:var(--mut);font-size:1.0625rem}
+/* Cierre: el CPEA lleva 2 CTA (brief: Consultar precios · Reunión o llamada); CAI solo 1 */
+.cierre-cta{flex-wrap:wrap;gap:1rem}
