@@ -437,7 +437,7 @@ html.hmc-abierto{overflow:hidden}
 .img-pend-ico{color:var(--acc)}.img-pend-ico svg{width:2.25rem;height:2.25rem}
 .img-pend-eti{font-size:.8125rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fg)}
 .img-pend-desc{font-size:.875rem}
-.img-quees{margin-top:1.5rem}
+.img-quees{margin-top:1.5rem}.img-pend.img-quees{border-radius:1.25rem}
 /* 03/11 · Rosario: filete superior del cierre en blanco y logo CAI del pie en blanco (como borrador-bap 2260442) */
 .cierre{border-top-color:#fff}
 .pie-placa{background:transparent;padding:0;border-radius:0}
