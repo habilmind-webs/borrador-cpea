@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://cpea.habilmind.net/sitemap.xml
